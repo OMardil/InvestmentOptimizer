@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib"/>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/com.google.ortools.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/AllDifferentExcept0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/AllInterval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/CapacitatedVehicleRoutingProblemWithTimeWindows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Circuit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/CoinsGrid.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/CoinsGridMIP.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/ColoringMIP.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/CoveringOpl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Crossword.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/DeBruijn.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Diet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/DietMIP.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/DivisibleBy9Through1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/FlowExample.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/GolombRuler.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/IntegerProgramming.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Issue173.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Knapsack.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/KnapsackMIP.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/LeastDiff.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/LinearAssignmentAPI.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/LinearProgramming.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/MagicSquare.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Map.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Map2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Minesweeper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/MultiThreadTest.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/NQueens.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/NQueens2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Partition.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/protobuf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/QuasigroupCompletion.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/RabbitsPheasants.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SendMoreMoney.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SendMoreMoney2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SendMostMoney.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Seseman.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SetCovering.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SetCovering2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SetCovering3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SetCovering4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SetCoveringDeployment.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SimpleLpProgram.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SimpleMipProgram.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SimpleRoutingTest.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SimpleSatProgram.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/StableMarriage.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/StiglerMIP.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Strimko2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Sudoku.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/SurvoPuzzle.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/ToNum.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Tsp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Vrp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/WhoKilledAgatha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/Xkcd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ae_hu/Documents/GitHub/or-tools_VisualStudio2019-64bit_v7.8.7959/lib/YoungTableaux.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
