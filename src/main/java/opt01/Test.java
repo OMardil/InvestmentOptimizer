@@ -233,23 +233,23 @@ public class Test {
 
 	private static void limitPerInvestment(MPSolver solver, MPVariable[][] x) {
 		
-		MPConstraint carro = solver.makeConstraint(0, 200000, "CARRO");
-		carro.setCoefficient(x[0][0], 1);
-		carro.setCoefficient(x[1][0], 1);
-		carro.setCoefficient(x[2][0], 1);
-		carro.setCoefficient(x[3][0], 1);
+		MPConstraint carro = solver.makeConstraint(200000, 200000, "CARRO");
+		carro.setCoefficient(x[0][0], 200000);
+		carro.setCoefficient(x[1][0], 200000);
+		carro.setCoefficient(x[2][0], 200000);
+		carro.setCoefficient(x[3][0], 200000);
 		
-		MPConstraint navidad = solver.makeConstraint(0, 15000, "NAVIDAD");
-		navidad.setCoefficient(x[0][1], 1);
-		navidad.setCoefficient(x[1][1], 1);
-		navidad.setCoefficient(x[2][1], 1);
-		navidad.setCoefficient(x[3][1], 1);		
+		MPConstraint navidad = solver.makeConstraint(15000, 15000, "NAVIDAD");
+		navidad.setCoefficient(x[0][1], 15000);
+		navidad.setCoefficient(x[1][1], 15000);
+		navidad.setCoefficient(x[2][1], 15000);
+		navidad.setCoefficient(x[3][1], 15000);		
 		
-		MPConstraint liquido = solver.makeConstraint(0, 70000, "LIQUIDO");
-		liquido.setCoefficient(x[0][2], 1);
-		liquido.setCoefficient(x[1][2], 1);
-		liquido.setCoefficient(x[2][2], 1);
-		liquido.setCoefficient(x[3][2], 1);				
+		MPConstraint liquido = solver.makeConstraint(70000, 70000, "LIQUIDO");
+		liquido.setCoefficient(x[0][2], 70000);
+		liquido.setCoefficient(x[1][2], 70000);
+		liquido.setCoefficient(x[2][2], 70000);
+		liquido.setCoefficient(x[3][2], 70000);				
 
 	}
 
@@ -257,24 +257,24 @@ public class Test {
 		
 		//Supertasas
 		MPConstraint c1 = solver.makeConstraint(0, 120000, "SUPERTASAS");
-		c1.setCoefficient(x[0][0], 1);
-		c1.setCoefficient(x[0][1], 1);
-		c1.setCoefficient(x[0][2], 1);
+		c1.setCoefficient(x[0][0], 209000);
+		c1.setCoefficient(x[0][1], 15675);
+		c1.setCoefficient(x[0][2], 73150);
 
 		//Kubo
 		MPConstraint n1 = solver.makeConstraint(0, 120000, "KUBO");
-		n1.setCoefficient(x[1][0], 1);
-		n1.setCoefficient(x[1][1], 1);
-		n1.setCoefficient(x[1][2], 1);
+		n1.setCoefficient(x[1][0], 220000);
+		n1.setCoefficient(x[1][1], 16500);
+		n1.setCoefficient(x[1][2], 77000);
 
 		//Banamex
-		MPConstraint l1 = solver.makeConstraint(0, 120000, "BANAMEX");
-		l1.setCoefficient(x[2][0], 1);
-		l1.setCoefficient(x[2][1], 1);
-		l1.setCoefficient(x[2][2], 1);		
-		l1.setCoefficient(x[3][0], 1);		
-		l1.setCoefficient(x[3][1], 1);		
-		l1.setCoefficient(x[3][2], 1);		
+		MPConstraint l1 = solver.makeConstraint(0, 1000000, "BANAMEX");
+		l1.setCoefficient(x[2][0], 204000);
+		l1.setCoefficient(x[2][1], 15300);
+		l1.setCoefficient(x[2][2], 71400);		
+		l1.setCoefficient(x[3][0], 205000);		
+		l1.setCoefficient(x[3][1], 15375);		
+		l1.setCoefficient(x[3][2], 71750);		
 		
 	}
 
@@ -282,18 +282,18 @@ public class Test {
 
 		MPVariable[][] x = new MPVariable[rows][columns];
 
-		x[0][0] = solver.makeIntVar(0.0, 1.0, "c1");
-		x[0][1] = solver.makeIntVar(0.0, 1.0, "n1");
-		x[0][2] = solver.makeIntVar(0.0, 1.0, "l1");
-		x[1][0] = solver.makeIntVar(0.0, 1.0, "c2");
-		x[1][1] = solver.makeIntVar(0.0, 1.0, "n2");
-		x[1][2] = solver.makeIntVar(0.0, 1.0, "l2");
-		x[2][0] = solver.makeIntVar(0.0, 1.0, "c3");
-		x[2][1] = solver.makeIntVar(0.0, 1.0, "n3");
-		x[2][2] = solver.makeIntVar(0.0, 1.0, "l3");
-		x[3][0] = solver.makeIntVar(0.0, 1.0, "c4");
-		x[3][1] = solver.makeIntVar(0.0, 1.0, "n4");
-		x[3][2] = solver.makeIntVar(0.0, 1.0, "l4");
+		x[0][0] = solver.makeNumVar(0.0, 1.0, "c1");
+		x[0][1] = solver.makeNumVar(0.0, 1.0, "n1");
+		x[0][2] = solver.makeNumVar(0.0, 1.0, "l1");
+		x[1][0] = solver.makeNumVar(0.0, 1.0, "c2");
+		x[1][1] = solver.makeNumVar(0.0, 1.0, "n2");
+		x[1][2] = solver.makeNumVar(0.0, 1.0, "l2");
+		x[2][0] = solver.makeNumVar(0.0, 1.0, "c3");
+		x[2][1] = solver.makeNumVar(0.0, 1.0, "n3");
+		x[2][2] = solver.makeNumVar(0.0, 1.0, "l3");
+		x[3][0] = solver.makeNumVar(0.0, 1.0, "c4");
+		x[3][1] = solver.makeNumVar(0.0, 1.0, "n4");
+		x[3][2] = solver.makeNumVar(0.0, 1.0, "l4");
 		return x;
 	}
 
@@ -318,7 +318,7 @@ public class Test {
 			for (int r=0; r<x.length; r++) {
 				System.out.print(investmentList[r].getAccountName() +"@"+ investmentList[r].getTerm() + "\t");
 				for (int c = 0; c<x[0].length; c++) {
-					System.out.print(gains[r][c] +"_"+ x[r][c].solutionValue() +  "\t");
+					System.out.print(x[r][c].solutionValue()*gains[r][c] +  "\t");
 				}
 				System.out.println("\t TOTALS=");
 			}
