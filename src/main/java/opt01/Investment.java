@@ -1,7 +1,7 @@
 package opt01;
 
 
-public class Investment implements Comparable{
+public class Investment implements Comparable<Object>{
     private String accountName;
     private double interestRate;
     private long term;
